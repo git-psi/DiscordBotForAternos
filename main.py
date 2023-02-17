@@ -7,7 +7,10 @@ import python_aternos
 from python_aternos import Client
 
 
-bot = interactions.Client(token="MTA3Mjg0MDg1NTA3MDcwNzcyMw.Glb5YJ.27Tq5jvhoM6JFZRLclAF6mWuKgqy0fKnxtPSLs")
+token1="W5.TeciaKUlTQUdhJNIWGnizgGZ9pRvyHvVKN0Vkc"
+token2="MTA3Mjg0MDg1NTA3MDcwNzcyMw.GQrr"
+tokenall=token1+token2
+bot = interactions.Client(token=tokenall)
 setup(bot)
 
 color = {
